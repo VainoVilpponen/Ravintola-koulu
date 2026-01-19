@@ -1,0 +1,130 @@
+body {
+    background-image: url(revon.jpg);
+    background-size: cover;
+    text-align: center;
+    text-shadow: 2px 2px 4px #2d2828;
+    font-style: helvetica, sans-serif;
+}
+
+
+
+.lappi {
+    background-color: rgba(255, 255, 255, 0.715);
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px #4c3e3e;
+    max-width: 1000px;
+}
+.info-top {
+    background-color: rgba(255, 255, 255, 0.368);
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px #4c3e3e;
+    font-size: 125%;
+    max-width: 400px;
+}
+
+.ruokalistateksti {
+    background-color: rgba(255, 255, 255, 0.368);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px #4c3e3e;
+    max-width: 900px;
+}
+.ruokalista {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.ruokalista > * {
+    flex: 1 1 calc(50% - 10px);
+}
+
+.paiva {
+    background-color:  rgba(255, 255, 255, 0.724);
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px #4c3e3e;
+    margin: 5px auto;
+}
+
+.paiva h3 {
+    text-align: center;
+}
+
+.aukioloajat {
+    background-color: #bcb5b56c;
+    padding: 5px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px #4c3e3e;
+    max-width: 900px;
+    font-style: italic;
+}
+
+.yhteystiedot {
+    background-color: #bcb5b56c;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px #4c3e3e;
+    max-width: 400px;
+    font-style: italic;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.nav ul li {
+  float: left;
+}
+
+.nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav ul li a:hover {
+  background-color: #111111;
+  border-radius: 10px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: rgba(95, 87, 87, 0.315);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  flex: 1 1 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container2 {
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: rgba(95, 87, 87, 0.315);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  flex: 1 1 auto;
+}

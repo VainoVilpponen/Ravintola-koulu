@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="utf-8">
+    <title>Yhteystiedot</title>
+    <link rel="stylesheet" href="ravintola2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+   <div class="nav">
+    <ul>
+        <li>
+            <a href="ravintola2.html">Koti</a>
+        </li>
+        <li>
+            <a href="Palautelomake.html">Palaute</a>
+        </li>
+    </ul>
+    </div>
+
+<div class="container">
+    <h1>Palaute</h1>
+    
+    <form>
+        <label for="päivä">Päivä jolloin kävit</label>
+        <input type="date" id="päivä" name="päivä" required>
+        <label for="aika">Kauan jouduit ruokaa odottaa (minuutteina)</label>
+        <input type="text" id="aika" name="aika" required>
+        <label for="ruoka">Miltä ruoka maistui</label>
+        <textarea id="ruoka" name="ruoka" rows="1" required></textarea>
+        <label for="lämpötila">Lämpötila</label>
+        <textarea id="lämpötila" name="lämpötila" rows="1" required></textarea>
+        <label for="Ulkonäkö">Ulkonäkö (Asteikolla 0-10)</label>
+        <input type="number" id="Ulkonäkö" name="Ulkonäkö" min="0" max="10" required>
+        <label for="Hinta">Mitä mieltä olit hinnasta</label>
+        <textarea id="Hinta" name="Hinta" rows="1" required></textarea>
+        <label for="Asiakaspalvelu">Millaista asiakas palvelu oli</label>
+        <textarea id="Asiakaspalvelu" name="Asiakaspalvelu" rows="1" required></textarea>
+        <label for="Vapaa palaute">Vapaa palaute</label>
+        <textarea id="Vapaa palaute" name="Vapaa palaute" rows="4"></textarea>
+        <label for="Lähetä"></label>
+        
+        <input type="submit" id="Lähetä" name="Lähetä" value="Lähetä">
+    </form>
+</div>
+<div class="container2">
+    <h1>Yhteystiedot</h1>
+    <form>
+    <label for="Nimi">Nimi</label>
+    <input type="text" id="Nimi" name="Nimi" required>
+    <label for="Sähköposti">Sähköposti</label>
+    <input type="email" id="Sähköposti" name="Sähköposti" required>
+    <label for="Puhelin">Puhelin</label>
+    <input type="tel" id="Puhelin" name="Puhelin" >
+    <label for="Lähetä"></label>
+    <input type="submit" id="Lähetä" name="Lähetä" value="Lähetä">
+    </form>
+</div>
+</body>
+</html>
